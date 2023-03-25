@@ -1,0 +1,775 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 25px;
+}
+header{
+    background-image: url(../img/photo_2020-12-13_11-54-23.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+ul{
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+.head{ 
+display: flex;
+justify-content: space-around;
+}
+nav{
+    width: 70%;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 30%;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #F1CDB3;
+}
+.logo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+}
+li{
+    list-style-type: none;
+    border-bottom: 2px solid #f1cdb300;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li:hover{
+    border-bottom: 2px solid #F1CDB3;
+}
+.titlenotonly{
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.notonly{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 25%;
+    margin-left: 10%;
+    margin-top: 280px;
+}
+.firstbutton{
+    width: 207px;
+    height: 55px;
+    background-color: #F1CDB3;
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 45px;
+    margin-top: 40px;
+}
+.textnotonly{
+    font-size: 15px;
+    color: #CDCDCD;
+}
+.majornotonly{
+    padding-bottom: 25px;
+    color: white;
+}
+.photosection1{
+    width: 300px;
+    height: 408px;
+  
+}
+.aboutshelter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+}
+.textsection1{
+    width: 25%;
+    margin-left: 5%;
+}
+.p2{
+    margin-top: 25px;
+}
+.titlesection1{
+    color: #545454;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.ourfriend{
+    display: flex;
+    flex-direction: column;
+    background-color: #F6F6F6;
+    color: #545454;
+    text-align: center;
+}
+.photosourfriend{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.katrine{
+    margin-left: 35px;
+    margin-right: 35px;
+    background-color: #fbf8f8;
+    width: 350px;
+}
+.jeniffer{
+    margin-left: 35px;
+    margin-right: 35px;
+    background-color: #fbf8f8;
+    width: 350px;
+}
+.woody{
+    margin-left: 35px;
+    margin-right: 35px;
+    background-color: #fbf8f8;
+    width: 350px;
+}
+.katrineandothers{
+    display: flex;
+    flex-direction: row;
+    width: 82%;
+    justify-content: center;
+}
+.knopka{
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+.therest{
+    background-color: #F1CDB3;
+    height: 55px;
+    width: 270px;
+    border-radius: 50px;
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: none;
+}
+.petsname{
+    margin-top: 30px;
+}
+.petsknopkamini{
+    margin-top: 22px;
+    margin-bottom: 34px;
+}
+.jennifername{
+    color: #545454;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.katrinename{
+    color: #545454;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.woodyname{
+    color: #545454;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.katrineknopka{
+    border: 3px solid #F1CDB3;
+    border-radius: 25px;
+    background-color: white;
+    color:#292929;;
+    width: 190px;
+    height: 50px;
+}
+.woodyknopka{
+    border: 3px solid #F1CDB3;
+    border-radius: 25px;
+    background-color: white;
+    color:#292929;;
+    width: 190px;
+    height: 50px;
+}
+.jenifferknopka{
+    border: 3px solid #F1CDB3;
+    border-radius: 25px;
+    background-color: white;
+    color:#292929;;
+    width: 190px;
+    height: 50px;
+}
+.donationphoto2{
+    display: none;
+}
+.petsname{
+    display: flex;
+    justify-content: center;
+}
+.majorourfriend{
+    margin-top: 80px;
+    margin-bottom: 65px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.petphotos{
+    margin-top: 34px;
+}
+.woodyknopka:hover{
+    background-color:#F1CDB3;
+    }
+.katrineknopka:hover{
+        background-color: #F1CDB3;
+    }
+
+.jenifferknopka:hover{
+        background-color: #F1CDB3;
+    }
+.katrine:hover{
+    background-color: #ffffff;
+    transition: 1s;
+    box-shadow:0px 0px 30px 2px rgb(211, 198, 198);
+}
+.woody:hover{
+    background-color: #ffffff; 
+    transition: 1s;
+    box-shadow:0px 0px 30px 2px rgb(211, 198, 198);
+}
+.jeniffer:hover{
+    background-color: #ffffff;
+    transition: 1s;
+    box-shadow:0px 0px 30px 2px rgb(211, 198, 198);
+}
+.knopka:hover{
+
+    border-radius: 50px;
+    background-color: white;
+}
+.therest:hover{
+    background-color: white;
+    border: 3px solid #F1CDB3;
+}
+.help{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: #545454;
+    text-align: center;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 50px;
+}
+.youcanhelp{
+    background-color: white;
+}
+.youcanhelpphotos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.helpphotos1{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+.helpphotos2{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.helpimg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.helpimg img{
+    margin-bottom: 10px;
+}
+.helpimg p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.donationphoto{
+    margin-right: 50px;
+}
+.donationnephoto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+.donationmajor{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.bankname{
+    margin-bottom: 25px;
+}
+.banknumber{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    background-color: #F1CDB3;
+    border: none;
+    width: 270px;
+    height: 35px;
+    align-items: center;
+}
+.donationnumber{
+    border: 2px solid black;
+}
+.donation{
+    display: flex;
+    justify-content: center;
+    background-color: #F6F6F6;
+}
+.donationmajor h1{
+    color: #545454;
+}
+.banknumber p{
+    font-size: 15px;
+    font-family: 'Arial Narrow Bold', sans-serif  ;
+}
+.banknumber:hover{
+    cursor: pointer;
+    background-color: #d8b297d5;
+}
+.donationtext{
+    margin-bottom: 50px;
+}
+.donationphoto img{
+    margin-top: 50px;
+}
+.donationtext p{
+    font-family: arial;
+    font-style: italic;
+    color: #C1C1C1;
+
+}
+footer{
+    background-image: url(../img/maket-sajta-priyuta-dlya-zhivotnyh-main.png);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.wearewaiting h1{
+    color: white;
+}
+.forquestions h1{
+    color: white;
+}
+.questionsgmail p{
+color: #D5B59E;
+font-size: 20px;
+}
+.questionsnumber p{
+    color: #D5B59E;
+    font-size: 20px;
+}
+.london p{
+    color: #D5B59E;
+    font-size: 20px;
+}
+.boston p{
+    color: #D5B59E;
+    font-size: 20px;
+}
+.questionsgmail{
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-between;
+}
+.questionsnumber{
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-between;
+}
+.london{
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-between;
+}
+.boston{
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-between;
+}
+.forquestions{
+    margin-top: 75px;
+}
+.wearewaiting{
+    margin-top: 75px;
+}
+.footerdog{
+    margin-top: 50px;
+    width: 300px;
+}
+.forquestionsmini{
+    width: 80%;
+}
+.burgermenu{
+    display: none;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    header{
+        background-position: center;
+    }
+    .notonly{
+        width: 35%;
+        margin-top: 20vh;
+    }
+    .textsection1{
+        width: 35%;
+    }
+    .majorourfriend{
+        font-size: 24px;
+    }
+    .donation{
+        flex-direction: column;
+        align-items: center;
+    }
+    .donationnephoto{
+        width: 65%;
+    }
+    .donationmajor br{
+        display: none;
+    }
+    .footerdog{
+        display: none;
+    }
+    .wearewaiting{
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    .burgermenu{
+        display: none;
+    }
+
+}
+@media (min-width: 0px) and (max-width: 767px) {
+    header{
+        background-image: url(../img/c41c18cdc1c2b9cab7540c40ba5c9a88.jpg);
+        background-position: center;
+    }
+    .burgermenu{
+        display: block;
+    }
+    .menu{
+        display: none;
+    }
+    .burger-line{
+        background-color: white;
+        height: 2px;
+        width: 35px;
+        position: absolute;
+        right: 10px;
+        top: 8px;
+    }
+    .burgermenu{
+        width: 100%;
+        height: 60px;
+        background-color: none;
+        color: white;
+        text-align: center;
+        position: relative;
+    }
+    #check-menu{
+    display: none;
+    }
+    label{
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+        line-height: 40px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+    .first{
+        top: 18px;
+    }
+    .second, .third{
+    top: 28px;
+    transition: 0.5s all;
+    
+    }
+    .fourth{
+        top: 38px;
+    }
+    .burger-nav{
+        width: 100%;
+        position: absolute;
+        left: 0;
+        bottom: 0%;
+        display: block;
+        transform: translateY(100%);
+        max-height: 0;
+        font-size: 0;
+        overflow: hidden;
+        transition: 0.5s;
+    }
+    a{
+        display: block;
+        width: 100%;
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        border-top: 1px solid rgba(255,255,255,.3);
+        background-color: #bcced7b0;
+        font-family: sans-serif;
+        text-shadow: 1px 0 1px #000, 
+        0 1px 1px #000, 
+        -1px 0 1px #000, 
+        0 -1px 1px #000;
+    
+    }
+    #check-menu:checked ~ .burger-nav{
+        max-height: 500px;
+        font-size: 16px;
+    }
+    #check-menu:checked ~ .first{
+        display: none;
+    }
+    #check-menu:checked ~ .fourth{
+        display: none;
+    }
+    #check-menu:checked ~ .second{
+        transform: rotate(45deg);
+    }
+    #check-menu:checked ~ .third{
+        transform: rotate(-45deg);
+    }
+    a:hover{
+    background-color: rgba(142, 105, 46, 0.449);
+    }
+    label{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #D5B59E;
+        font-size: 40px;
+    }
+    .logo{
+        display: none;
+    }
+    .head{
+        padding-top: 0px;
+    }
+    nav{
+        max-width: 100%;
+    }
+    .notonly{
+        width: 80%;
+        background-color: #bcced7b0;
+        border-radius: 20px;
+        margin-top: 225px;
+        height: 280px;
+    }
+    .majornotonly{
+        color: #223ef5;;
+        text-align: center;
+        padding-bottom: 15px;
+        text-shadow: 1px 0 1px #ffffff, 
+        0 1px 1px #ffffff, 
+        -1px 0 1px #b7cfd8, 
+        0 -1px 1px rgb(255, 255, 255);
+    }
+    .textnotonly{
+        color: #b7cfd8;
+        padding: 0 5px 0 5px;
+        color: white!important;
+        text-shadow: 1px 0 1px #000, 
+        0 1px 1px #000, 
+        -1px 0 1px #000, 
+        0 -1px 1px #000;
+    }
+    .firstbutton{
+        margin-top: 15px;
+        background-color: #293decab;
+        border: 2px solid white;
+    }
+    .makefriend{
+        display: flex;
+        justify-content: center;
+    }
+    label{
+        font-weight: bold;
+        text-shadow: 5px 5px #b7cfd8;
+        color: #223ef5;
+
+    }
+    .titlenotonly{
+        font-size: 25px;
+
+    }
+    .firstbutton:hover{
+        background-color: white;
+        border: 2px solid #293decab;
+    }
+    .aboutshelter{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .textsection1{
+        width: 90%;
+        text-align: center;
+    }
+    .titlesection1{
+        color: #293decab;
+        text-shadow: 5px 5px #b7cfd8;
+    }
+    .p1{
+        color: #b7cfd8;
+        text-shadow: 1px 0 1px #000, 
+        0 1px 1px #293decab, 
+        -1px 0 1px #293decab, 
+        0 -1px 1px #293decab;
+    }
+    .p2{
+        color: #b7cfd8;
+        text-shadow: 1px 0 1px #000, 
+        0 1px 1px #293decab, 
+        -1px 0 1px #293decab, 
+        0 -1px 1px #293decab;
+    }
+    .katrineandothers{
+        flex-direction: column;
+    }
+    .katrine{
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0;
+    }
+    .jeniffer, .woody{
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0;
+    }
+    .ourfriend{
+        color: #293decab;
+        text-shadow: 5px 5px #b7cfd8;
+        font-size: 30px;
+    }
+    .katrinename, .jeniffername, .woodyname{
+        color: #b7cfd8;
+        text-shadow: 1px 0 1px #000, 
+        0 1px 1px #293decab, 
+        -1px 0 1px #293decab, 
+        0 -1px 1px #293decab;
+    }
+    .woodyknopka, .jenifferknopka, .katrineknopka{
+        margin-top: 15px;
+        background-color: #b7cfd8;
+        border: 2px solid black;
+        
+    }
+    .majorourfriend{
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
+    .therest{
+        margin-top: 15px;
+        background-color: #293decab;
+        border: 2px solid black;
+    }
+    .helpphotos2{
+        margin-bottom: 0px;
+        flex-wrap: wrap;
+    }
+    .helpphotos1{
+        flex-wrap: wrap;
+    }
+    .helpimg{
+        width: 50%;
+        margin-bottom: 25px;
+    }
+    .youcanhelpphotos{
+        flex-direction: column-reverse;
+        margin-top: 25px;
+    }
+    .collar p{
+        text-align: center;
+    }
+    .donationphoto{
+        display: none;
+    
+    }
+    .donationphoto2{
+        display: block;
+        width: 100%;
+    }
+    .donationnephoto{
+        width: 100%;
+    }
+    .donationmajor{
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .donationtext{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 25px;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        background-size: cover;
+    }
+    .london{
+        display: flex;
+        justify-content: space-around;
+    }
+    .boston{
+        display: flex;
+        justify-content: space-around; 
+    }
+    .questionsgmail{
+        display: flex;
+        justify-content: space-around;
+    }
+    .forquestionsmini{
+        width: 100%;
+    }
+    .questionsnumber{
+        display: flex;
+        justify-content: space-around;
+    }
+    .forquestions h1{
+        text-align: center;
+    }
+    .wearewaiting h1{
+        text-align: center;
+    }
+    .wearewaiting{
+        margin-top: 50px;
+    }
+    .forquestions{
+        margin-top: 50px;
+    }
+    .footerdog img{
+        width: 230px;
+    }
+    .footerdog{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .london img{
+        height: 36px;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    header{
+        height: 70vh;
+    }
+}
+
+    
+

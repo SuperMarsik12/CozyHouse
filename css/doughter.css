@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+    align-items: center;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #545454;
+}
+.logo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #545454;
+}
+li{
+    list-style-type: none;
+    border-bottom: 2px solid #f1cdb300;
+
+}
+li:hover{
+    border-bottom: 2px solid #F1CDB3;
+}
+li a{
+    text-decoration: none;
+    color: #545454;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+main{
+    background-color: #F6F6F6;
+}
+.zagolovok{
+    text-align: center;
+    margin-top: 25px;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #545454;
+    margin-top: 25px;
+}
+.katrine{
+    margin-left: 35px;
+    margin-right: 35px;
+    background-color: #fbf8f8;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.petsknopkamini{
+    margin-top: 22px;
+    margin-bottom: 34px;
+}
+.petphotos{
+    margin-top: 34px;
+    height: 230px;
+}
+.petsname{
+    margin-top: 30px;
+}
+.katrinename{
+    color: #545454;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.katrineknopka{
+    border: 3px solid #F1CDB3;
+    border-radius: 25px;
+    background-color: white;
+    color:#292929;;
+    width: 190px;
+    height: 50px;
+}
+.katrineknopka:hover{
+    background-color: #F1CDB3;
+}
+.petphotos1{
+    display: flex;
+    flex-direction: row;
+}
+.petphotos2{
+    display: flex;
+    margin-top: 25px;
+}
+footer{
+    background-image: url(../img/maket-sajta-priyuta-dlya-zhivotnyh-main.png);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.wearewaiting h1{
+    color: white;
+}
+.forquestions h1{
+    color: white;
+}
+.questionsgmail p{
+color: #D5B59E;
+font-size: 20px;
+}
+.questionsnumber p{
+    color: #D5B59E;
+    font-size: 20px;
+}
+.london p{
+    color: #D5B59E;
+    font-size: 20px;
+}
+.boston p{
+    color: #D5B59E;
+    font-size: 20px;
+}
+.questionsgmail{
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-between;
+}
+.questionsnumber{
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-between;
+}
+.london{
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-between;
+}
+.boston{
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-between;
+}
+.forquestions{
+    margin-top: 75px;
+}
+.wearewaiting{
+    margin-top: 75px;
+}
+.footerdog{
+    margin-top: 50px;
+    width: 300px;
+}
+.forquestionsmini{
+    width: 80%;
+}
+.wrap{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,98 @@
+.dog1{
+    width: 680px;
+    height: 330px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.dog1img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.dog1text{
+    width: 50%;
+}
+.jennifername{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4C4C4C;
+}
+.a1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4C4C4C;
+    font-size: 18px;
+}
+.a2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#4C4C4C;
+    font-size: 15px;
+}
+.dog2{
+    width: 680px;
+    height: 330px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.dog2img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.dog2text{
+    width: 50%;
+}
+.charlyname{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4C4C4C;
+}
+section{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+}
+.dog1plus{
+    float: right;
+    width: 53px;
+    height: 53px;
+    border: 2px solid rgb(255, 200, 154) ;
+    border-radius: 50%;
+    position: relative;
+
+}
+.superdog1{
+    width: 750px;
+}
+.hrestik1{
+    width: 30px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    top: 26px;
+    left: 11px;
+    transform: rotate(45deg);
+}
+.hrestik2{
+    width: 30px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    top: 26px;
+    left: 11px;
+    transform: rotate(-45deg);
+}
+.dog2plus{
+    float: right;
+    width: 53px;
+    height: 53px;
+    border: 2px solid rgb(255, 200, 154) ;
+    border-radius: 50%;
+    position: relative;
+
+}
+.superdog2{
+    width: 750px;
+    margin-top: 25px;
+}
